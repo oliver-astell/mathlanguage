@@ -1,6 +1,11 @@
+use project::ProjectFile;
+
 mod lexer;
 mod project;
+mod tokens;
 
 fn main() {
-    println!("Hello, world!");
+    ProjectFile {
+        path: "resources/main.unknown"
+    };
 }
